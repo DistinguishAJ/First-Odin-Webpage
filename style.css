@@ -8,3 +8,91 @@ body{
     border: 0;
 }
 
+.nav{
+    background-color: white;
+    height: 100vh;
+    padding: 0 2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(45, 5, 49, 0.678)), url('./files/hang-out.jpg');
+    position: relative;
+    z-index: 100;
+}
+
+.nav-links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(190, 4, 190);
+    cursor: pointer;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: rgb(190, 4, 190);
+    font-weight: 500;
+}
+
+.header-text{
+    margin-top: 100px;
+    max-width: 600px;
+}
+
+.header-text h1{
+    font-size: 70px;
+    color: rgb(255, 231, 255);
+    margin-bottom: 20px;
+}
+
+.header-text .header-span{
+    font-size: 110px;
+}
+
+.header-text p{
+    color: rgb(255, 231, 255);
+}
+
+.button-one{
+    display: inline-block;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(190, 4, 190);
+    color: rgb(255, 231, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-one::after{
+    
+}
+
+.header-image{
+    position: absolute;
+    top: 0;
+    right: 15%;
+}
+
+.header-image img{
+    display: block;
+    padding-top: 100px;
+    width: 400px;
+    height: auto;
+}
